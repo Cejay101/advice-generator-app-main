@@ -19,6 +19,7 @@ body {
   background: var(--DarkBlue);
   margin: 10rem auto;
   width: 600px;
+  position: relative;
 }
 
 /* Advice */
@@ -27,25 +28,68 @@ body {
   text-align: center;
   padding: 0 50px;
   color: var(--LightCyan);
-  border-radius: 10px;
+  border-radius: 15px;
+  position: relative;
 }
 .advice-header {
   color: var(--NeonGreen);
-  font-size: 10px;
+  font-size: 15px;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   padding: 2rem;
 }
-.footer-style {
-  padding: 40px;
+
+.footer-style{
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 37px;
+  
 }
-.footer-style div {
-  background: var(--LightCyan);
-  height: 2px;
+.footer-style div{background-color: var(--LightCyan);
+  margin: 0 5px;
+  
+}
+.style-1 {
+   width: 100%;
+  border: 1px var(--LightCyan) outset;
+  opacity: 25%;
+}
+.style-2 {
+  border-radius: 30%;
+  padding: 10px 3px; 
+}
+.style-3 {
+  border-radius: 30%;
+  padding: 10px 3px;
+}
+.style-4 {
+  width: 100%;
+  border: 1px var(--LightCyan) outset;
+  opacity: 25%;
+}
+
+.shine{
+  margin: auto;
+  height:70px;
+  width: 70px;
+  padding: 23px;
+  border-radius: 50%;
+  background: var(--NeonGreen);
+ position: relative;
+ 
+  bottom: -35px;
+   /* display: flex; */
+  /* justify-content: center; */
+}
+.shine:hover{
+  box-shadow: 0px 0px 40px 1px  hsl(150, 86%, 70%);
 }
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 10rem;
 }
 .attribution a {
   color: var(--LightCyan);
