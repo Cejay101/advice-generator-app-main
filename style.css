@@ -72,9 +72,9 @@ body {
 
 .shine{
   margin: auto;
-  height:70px;
-  width: 70px;
-  padding: 23px;
+  height:80px;
+  width: 80px;
+  padding: 28px;
   border-radius: 50%;
   background: var(--NeonGreen);
  position: relative;
@@ -93,4 +93,34 @@ body {
 }
 .attribution a {
   color: var(--LightCyan);
+}
+
+@media screen and (max-width:500px) {
+body {
+  font-size: 17px;
+  margin: 10rem auto;
+  width: 350px;
+}
+  .advice-bg {
+  padding: 0 10px;}
+.shine{
+  margin: auto;
+  height:50px;
+  width: 50px;
+  padding: 13px;
+  border-radius: 50%;
+  background: var(--NeonGreen);
+ position: relative;
+ 
+  bottom: -25px;
+   /* display: flex; */
+  /* justify-content: center; */
+}
+.footer-style{
+  
+  margin-top: 15px;
+}
+.shine:hover{
+  box-shadow: 0px 0px 30px 1px  hsl(150, 86%, 70%);
+}
 }
