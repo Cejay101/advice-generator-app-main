@@ -15,4 +15,4 @@ adviceText.innerHTML =`"${data.slip.advice}"`
 // adviceNum.textContent = (+adviceNum.textContent+1);
 // adviceText.textContent= getAdvice()
 
-// })
+})
