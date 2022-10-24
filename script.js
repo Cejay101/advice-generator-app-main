@@ -12,7 +12,7 @@ adviceText.innerHTML =`"${data.slip.advice}"`
 // getAdvice()
 // nextAdvice.addEventListener('click', function(){
 //   // Increase the advice number
-// adviceNum.textContent = (+adviceNum.textContent+1);
+adviceNum.textContent = (+adviceNum.textContent+1);
 adviceText.textContent= getAdvice()
 
 })
