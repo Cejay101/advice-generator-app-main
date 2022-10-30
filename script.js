@@ -9,7 +9,7 @@ const data =await res.json()
 
 adviceText.innerHTML =`"${data.slip.advice}"`
 }
-// getAdvice()
+getAdvice()
 nextAdvice.addEventListener('click', function(){
   // Increase the advice number
 adviceNum.textContent = (+adviceNum.textContent+1);
