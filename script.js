@@ -11,7 +11,7 @@ adviceText.innerHTML =`"${data.slip.advice}"`
 }
 getAdvice()
 nextAdvice.addEventListener('click', function(){
-  // Increase the advice number
+  // Increase the advice numbers
 adviceNum.textContent = (+adviceNum.textContent+1);
 adviceText.textContent= getAdvice()
 
